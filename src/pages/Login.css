@@ -1,0 +1,133 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(226,225,220,1) 0%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+}
+.main-head{
+    font: bolder;
+    font-size:40px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 30px;
+}
+.login-text-box{
+    border:3px solid #fffdef;
+    filter: drop-shadow(0 0 10px #fffdef);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: black;
+}
+.login-text-box h2{
+    color: white;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.login-text-box p:nth-child(2){
+    color: white;
+    opacity: 80%;
+    margin-bottom: 0;
+}
+.login-text-box p:nth-child(3){
+    color: lightblue;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.email{
+    color: white;
+}
+.email-input{
+    width: 100%;
+    background-color: black;
+    height: 25px;
+    border-radius: 3px;
+    margin-top: 6px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px white;
+    margin-bottom: 20px;
+    padding-left: 8px;
+    color: white;
+}
+.email-input::placeholder{
+    color: white;
+    opacity: 80%;
+    padding-left: 3px;
+}
+.password{
+    color: white;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.password-input{
+    width: 100%;
+    background-color: black;
+    height: 25px;
+    border-radius: 3px;
+    margin-top: 6px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px white;
+    position: relative;
+    color: white;
+    padding-left: 8px;
+}
+.password-input::placeholder{
+    color: white;
+    opacity: 80%;
+    padding-left: 3px;
+}
+.password-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.eye-logo{
+    position: absolute;
+    color: white;
+    right: 2%;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.forget-pwd-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.forget-pwd{
+    color: lightblue;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.btn-sign{
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    background-color: yellow;
+    border-radius: 6px;
+    font:bold;
+    font-weight: 600;
+    cursor: pointer;
+}
+.google-signin{
+    display: flex;
+    color: white;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.google-symb{
+    width: 20px;
+    height: 20px;
+}
+.signin-img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}

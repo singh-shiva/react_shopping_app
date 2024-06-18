@@ -1,0 +1,176 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(226,225,220,1) 0%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+}
+.siginup-text-box{
+    padding-top: 40px;
+    max-width: 35%;
+    background-color: black;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border:3px solid #fffdef;
+    filter: drop-shadow(0 0 10px #fffdef);
+    border-radius: 15px;
+}
+.siginup-text-box h2:nth-child(1){
+    color: white;
+    font:bold;
+    font-weight: 700;
+}
+.siginup-text-box p:nth-child(2){
+    color: white;
+    opacity: 80%;
+    margin-bottom: auto;
+    font-style: italic;
+}
+.siginup-text-box p:nth-child(3){
+    color: lightblue;
+    margin-top: auto;
+    font-style: italic;
+}
+.button-container{
+    display: flex;
+    background-color: black;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px white;
+    margin-top: 20px;
+}
+.student-btn, .instructor-btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    border:none;
+    opacity: 80%;
+    cursor: pointer;
+}
+.full-name-container{
+    display: flex;
+    color: white;
+    gap:15px;
+    width: 100%;
+    margin-top: 20px;
+}
+.fname-input, .lname-input, .email-input{
+    background-color: black;
+    height: 25px;
+    border-radius: 3px;
+    margin-top: 6px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px white;
+    margin-bottom: 20px;
+    padding-left: 8px;
+    color: white;
+}
+.lname-input::placeholder{
+    color: white;
+    opacity: 80%;
+    padding-left: 3px;
+}
+.fname-input::placeholder{
+    color: white;
+    opacity: 80%;
+    padding-left: 3px;
+}
+.email-input{
+    width: 92%;
+}
+.create-btn{
+    width: 96%;
+    height: 30px;
+    margin-top: 25px;
+    background-color: yellow;
+    border-radius: 6px;
+    font:bold;
+    font-weight: 600;
+    cursor: pointer;
+}
+.google-signin{
+    display: flex;
+    color: white;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.password-input{
+    background-color: black;
+    height: 25px;
+    border-radius: 3px;
+    margin-top: 6px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px white;
+    position: relative;
+    color: white;
+    padding-left: 8px;
+}
+.password-input::placeholder{
+    color: white;
+    opacity: 80%;
+    padding-left: 3px;
+}
+.pwd-container{
+    display: flex;
+    color: white;
+    gap:20px;
+}
+.password-input-container{
+    display: flex;
+    position: relative;
+    color: white;
+}
+.eye-logo{
+    position: absolute;
+    color: white;
+    right: 6%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.eye-logo-dis{
+    position: absolute;
+    color: white;
+    right: 6%;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+.student-btn:hover{
+    opacity: 100%;
+}
+.instructor-btn:hover{
+    opacity: 100%;
+}
+.signup-img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.eye-off-logo{
+    position: absolute;
+    color: white;
+    right: 6%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.eye-off-logo-dis{
+    position: absolute;
+    color: white;
+    right: 6%;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+.fname::after{
+    content: '*';
+    color: white;
+}
